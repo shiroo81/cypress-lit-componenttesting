@@ -18,7 +18,7 @@ This sample uses modern-web.dev's
 more information.
 
 Tests can be run with the `npx cypress open` command.
-```
+
 
 ## Dev Server
 
