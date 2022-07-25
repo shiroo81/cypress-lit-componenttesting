@@ -1,14 +1,4 @@
 /node_modules/
-/lib/
-/test/
-custom-elements.json
-# top level source
-my-element.js
-my-element.js.map
-my-element.d.ts
-my-element.d.ts.map
-# only generated for size check
-my-element.bundled.js
 
 # IDE - VSCode
 .vscode/*
@@ -16,15 +6,6 @@ my-element.bundled.js
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-# IDEs and editors
-.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
 
 # Logs
 logs
