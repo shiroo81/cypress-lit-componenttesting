@@ -1,12 +1,19 @@
-import {defineConfig} from 'cypress';
+import { defineConfig } from "cypress";
 
 const config = defineConfig({
   includeShadowDom: true,
+
   component: {
     devServer: {
-      bundler: 'vite'
+      bundler: "vite",
     },
-  }
+  },
+
+  e2e: {
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+    },
+  },
 });
 
 export default config;
